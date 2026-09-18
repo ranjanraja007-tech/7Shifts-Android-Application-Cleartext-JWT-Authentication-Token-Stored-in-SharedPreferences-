@@ -246,19 +246,19 @@ Add backup exclusion rules (`fullBackupContent` / `dataExtractionRules`) for cre
 
 ### Researcher
 
-**Soyam Arya** — Ethical Hacker | Mobile Application Security Researcher | Penetration Tester
+**Ranjan Raja** — Ethical Hacker | Cyber Security Expert Researcher | Penetration Tester | Cyber Security Instructor 
 
 ### Alias
 
-`honest_corrupt`
+`ranjanraja007`
 
 ### GitHub
 
-<https://github.com/honestcorrupt>
+<https://github.com/ranjanraja007-tech>
 
 ### Contact
 
-soyam@soyamcybersec.xyz
+ranjanraja007@gmail.com
 
 ---
 
