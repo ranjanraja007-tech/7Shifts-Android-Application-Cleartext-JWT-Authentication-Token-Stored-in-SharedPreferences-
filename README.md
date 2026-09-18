@@ -1,4 +1,4 @@
-# 7Shifts Android Application – Cleartext JWT Authentication Token Stored in SharedPreferences (Insecure Local Storage)
+# (CVE_REQUEST_for) 7Shifts Android Application – Cleartext JWT Authentication Token Stored in SharedPreferences (Insecure Local Storage)
 
 ## Summary
 
@@ -84,9 +84,11 @@ The short lifetime limits the replay window, but the token is rewritten on every
 | **CWE-312** | Cleartext Storage of Sensitive Information |
 | **CWE-922** | Insecure Storage of Sensitive Information  |
 
-### CVSS v3.1 Score (Estimated)
+|
 
-Vector: `CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N`
+## CVSS v3.1 Score (Estimated)
+
+Vector: `CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N`
 
 | Metric                  | Value          |
 | ----------------------- | -------------- |
@@ -95,14 +97,13 @@ Vector: `CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N`
 | **Privileges Required** | High (root)    |
 | **User Interaction**    | None           |
 | **Scope**               | Unchanged      |
-| **Confidentiality**     | Low            |
-| **Integrity**           | Low            |
+| **Confidentiality**     | High           |
+| **Integrity**           | High           |
 | **Availability**        | None           |
-| **Base Score**          | ~3.4 (Low)     |
+| **Base Score**          | **6.0 (Medium)** |
 
 ---
 
-## Proof of Concept
 
 ### Step 1 — Install and Log In
 
@@ -245,7 +246,7 @@ Add backup exclusion rules (`fullBackupContent` / `dataExtractionRules`) for cre
 
 ## Credits
 
-### Researcher
+### Researched and Submitted by :-
 
 **Ranjan Raja** — Ethical Hacker | Cyber Security Expert Researcher | Penetration Tester | Cyber Security Instructor 
 
