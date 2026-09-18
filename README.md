@@ -236,9 +236,10 @@ Add backup exclusion rules (`fullBackupContent` / `dataExtractionRules`) for cre
 
 - Screenshot (ADB shell showing `ls` of `shared_prefs` and plaintext `stream_credential_config_store.xml`):
 
-  ![7Shifts plaintext token in shared_prefs](./screenshots/7app_bug.png)
+ <img width="1365" height="768" alt="7app bug" src="https://github.com/user-attachments/assets/3babb6d1-3845-4ebc-81a4-a51a75130f04" />
 
-- Video PoC: <https://drive.google.com/file/d/1W09jicRAw3MpXnCFP8oyn-t9Uzdm8eub/view?usp=sharing>
+
+- Video PoC: <[https://drive.google.com/file/d/1W09jicRAw3MpXnCFP8oyn-t9Uzdm8eub/view?usp=sharing](https://drive.google.com/file/d/1W09jicRAw3MpXnCFP8oyn-t9Uzdm8eub/view?usp=sharing)>
 
 ---
 
